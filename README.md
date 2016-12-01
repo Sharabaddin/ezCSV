@@ -1,6 +1,8 @@
 ## Synopsis
 
-Simple preprocessor for CSV. Support only strong rfc4180 specification.
+It`s concept! 
+Simple preprocessor for CSV.
+Support only strong rfc4180 specification.
 
 ## Code Example
 
