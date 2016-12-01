@@ -71,7 +71,7 @@ Coming soon...
 
 ## License
 
-OpenSource
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE Version 2
 
 
 
