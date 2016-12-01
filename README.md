@@ -4,7 +4,7 @@ Simple preprocessor for CSV. Support only strong rfc4180 specification.
 
 ## Code Example
 
-    ```java
+```java
 //Read
 ParsCsv pc = new ParsCsv("path/1", AUTOSAVE);
 
@@ -43,7 +43,7 @@ while(pc.end()) {
 pc.Add(Colection);
 pc.Add(array);
 pc.Add("London", 71);
-    ```
+```
     
 ## Motivation
 
