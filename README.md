@@ -5,44 +5,44 @@ Simple preprocessor for CSV. Support only strong rfc4180 specification.
 ## Code Example
 
     ```java
-    //Read
-    ParsCsv pc = new ParsCsv("path/1", AUTOSAVE);
-    
-    //Read from internet
-    ParsCsv pc = new ParsCsv("test.com/1");
-    
-    //To array
-    pc.toAr(Ar);
-    
-    //To Collection
-    pc.toCo(Ar);
-    
-    //Concatenation csv
-    pc3 = pc + pc2;
-    
-    
-    //Get value by associative
-    while(pc.end()) {
-        a = pc["name"];
-        b = pc["price"];
-    }
-    
-    //Get value by index
-    while(pc.end()) {
-        a = pc[1];
-        b = pc[2];
-    }
-    
-    //Update value
-    while(pc.end()) {
-        pc["name"] = 3;
-        pc["price"] = 4;
-    }
-    
-    //Add value
-    pc.Add(Colection);
-    pc.Add(array);
-    pc.Add("London", 71);
+//Read
+ParsCsv pc = new ParsCsv("path/1", AUTOSAVE);
+
+//Read from internet
+ParsCsv pc = new ParsCsv("test.com/1");
+
+//To array
+pc.toAr(Ar);
+
+//To Collection
+pc.toCo(Ar);
+
+//Concatenation csv
+pc3 = pc + pc2;
+
+
+//Get value by associative
+while(pc.end()) {
+    a = pc["name"];
+    b = pc["price"];
+}
+
+//Get value by index
+while(pc.end()) {
+    a = pc[1];
+    b = pc[2];
+}
+
+//Update value
+while(pc.end()) {
+    pc["name"] = 3;
+    pc["price"] = 4;
+}
+
+//Add value
+pc.Add(Colection);
+pc.Add(array);
+pc.Add("London", 71);
     ```
     
 ## Motivation
